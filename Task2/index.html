@@ -1,48 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
 </head>
-<body>
-    <h1>Welcome To Calclate World!</h1>
-    <div class="container">
-        <input type="text" placeholder="0" id="inpBox">
-        <div class="row">
-            <button class="btn operator">AC</button>
-            <button class="btn operator">DEL</button>
-            <button class="btn operator">%</button>
-            <button class="btn operator">/</button>
-        </div>
-        <div class="row">
-            <button class="btn">7</button>
-            <button class="btn">8</button>
-            <button class="btn">9</button>
-            <button class="btn operator">*</button>
-        </div>
-        <div class="row">
-            <button class="btn">4</button>
-            <button class="btn">5</button>
-            <button class="btn">6</button>
-            <button class="btn operator">-</button>
-        </div>
-        <div class="row">
-            <button class="btn">1</button>
-            <button class="btn">2</button>
-            <button class="btn">3</button>
-            <button class="btn operator">+</button>
-        </div>
-        <div class="row">
-            <button class="btn">00</button>
-            <button class="btn">0</button>
-            <button class="btn">.</button>
-            <button class="btn eqbtn">=</button>
-        </div>
-    </div>
 
-    <script src="script.js"></script>
+<body>
+    <header>
+        <nav class="container1">
+            <div class="logo">
+                <h1>Portfolio.</h1>
+            </div>
+
+            <ul>
+                <a href="#home">
+                    <li>Home</li>
+                </a>
+                <a href="#about">
+                    <li>About</li>
+                </a>
+                <a href="#skill">
+                    <li>Skills</li>
+                </a>
+                <a href="#contact">
+                    <li>Contact Me</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="container2" id="home">
+        <div class="content">
+            <h1>Hello</h1>
+            <h3>I'm <span> Ritika Nainani </span></h3>
+            <h3>a FrontEnd Developer</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, quo. Sit optio veniam nemo nam?
+                Possimus, magnam rerum esse id, quam dignissimos pariatur ad necessitatibus at laborum libero blanditiis
+                aliquam repellendus ducimus nulla consectetur laudantium magni! Dolor, quos reiciendis. Commodi!</p>
+            <div class="follow">
+                <h4>Follow Me:</h4>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+            </div>
+            <div class="btn-1">
+                <button>My Resume</button>
+            </div>
+        </div>
+
+        <div class="myimg"></div>
+    </section>
+
+    <section class="container3" id="about">
+        <div class="myimg"></div>
+
+        <div class="about-content">
+            <h1 class="heading">About <span>Me</span></h1>
+            <h3>FrontEnd <span>Developer</span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quo laboriosam obcaecati corporis
+                exercitationem blanditiis ad veniam quam laborum, laudantium praesentium. Provident nesciunt voluptates
+                omnis quis dolor quae illum porro voluptatum praesentium cupiditate saepe est modi molestias quaerat rem
+                distinctio odit iste, laudantium nostrum doloribus mollitia labore. Dolores, excepturi natus!</p>
+            <div class="btn-1">
+                <button>Read More</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="container4" id="skill">
+        <div class="skill-content">
+            <h1>My Skills</h1>
+            <div class="tech">
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, aliquam quos? Rem, praesentium
+                        odit? Veniam possimus quasi culpa. Nesciunt voluptates blanditiis vitae reiciendis quis commodi
+                        ipsam quam animi possimus unde vero accusamus fuga, odio perspiciatis vel? Minima quae labore
+                        omnis? Dolore totam nam impedit? Necessitatibus, eos vel sit fuga odit, molestias doloremque
+                        repellat velit, illo mollitia at. Officia at nihil quos non repellendus quaerat optio velit,
+                        quasi maxime est fugiat dignissimos veniam, hic numquam, quibusdam molestias dolorum voluptas
+                        officiis id.</p>
+                </div>
+                <div class="images">
+                    <div class="img-1">
+                        <img src="images/HTML.png">
+                        <img src="images/CSS.png">
+                        <img src="images/JavaScript.png">
+                        <img src="images/C.png">
+                        <img src="images/C++.png">
+                    </div>
+                    <div class="img-2">
+                        <img src="images/Python.png">
+                        <img src="images/Java-Logo.png">
+                        <img src="images/Git.png">
+                        <img src="images/GitHub.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container5" id="contact">
+        <div class="contact-info">
+            <h1>Contact Me</h1>
+            <div class="info">
+                <form action="">
+                    <input type="text" placeholder="Your Name" class="box1">
+                    <input type="email" placeholder="Your Email" class="box1">
+                    <input type="text" placeholder="Your Address" class="box1">
+                    <input type="number" placeholder="Phone Number" class="box1">
+                    <textarea name="" id="" class="box1" placeholder="Your Message" cols="30" rows="10"></textarea>
+                    <div class="btn-1">
+                        <button type="submit" class="btn">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright &copy; Flower 2024 by Ritika Nainani || All rights reserved</p>
+    </footer>
 </body>
+
 </html>
